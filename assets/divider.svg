@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 32" width="900" height="32">
+  <defs>
+    <filter id="div-pencil" x="-2%" y="-10%" width="104%" height="120%">
+      <feTurbulence type="turbulence" baseFrequency="0.05" numOctaves="2" seed="11" result="turb" />
+      <feDisplacementMap in="SourceGraphic" in2="turb" scale="1.7" xChannelSelector="R" yChannelSelector="G" />
+    </filter>
+    <linearGradient id="fade-graphite" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#141413" stop-opacity="0" />
+      <stop offset="20%" stop-color="#6E6B64" stop-opacity="0.7" />
+      <stop offset="50%" stop-color="#CFCBC2" stop-opacity="0.95" />
+      <stop offset="80%" stop-color="#6E6B64" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#141413" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <g filter="url(#div-pencil)" fill="none" stroke-linecap="round">
+    
+    <line x1="40" y1="16" x2="428" y2="16" stroke="url(#fade-graphite)" stroke-width="1.2" />
+    <line x1="472" y1="16" x2="860" y2="16" stroke="url(#fade-graphite)" stroke-width="1.2" />
+
+    
+    <line x1="180" y1="19.5" x2="422" y2="19.5" stroke="#52504A" stroke-width="0.6" />
+    <line x1="478" y1="19.5" x2="720" y2="19.5" stroke="#52504A" stroke-width="0.6" />
+
+    
+    <polygon points="450,7 461,16 450,25 439,16" stroke="#D6D3CD" stroke-width="1.1" fill="#161615" />
+    <circle cx="450" cy="16" r="1.8" fill="#D6D3CD" />
+
+    
+    <line x1="432" y1="12" x2="429" y2="20" stroke="#8C8982" stroke-width="0.9" />
+    <line x1="468" y1="12" x2="471" y2="20" stroke="#8C8982" stroke-width="0.9" />
+  </g>
+</svg>

@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 568" width="900" height="568">
+  <defs>
+    <filter id="paper" x="0%" y="0%" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.82" numOctaves="4" seed="63" result="n" />
+      <feColorMatrix type="matrix" values="0.33 0.33 0.33 0 0  0.33 0.33 0.33 0 0  0.33 0.33 0.33 0 0  0 0 0 0.09 0" in="n" result="mn" />
+      <feComposite in="mn" in2="SourceGraphic" operator="over" />
+    </filter>
+    <filter id="pencil" x="-4%" y="-4%" width="108%" height="108%">
+      <feTurbulence type="turbulence" baseFrequency="0.045" numOctaves="3" seed="63" result="t" />
+      <feDisplacementMap in="SourceGraphic" in2="t" scale="1.9" xChannelSelector="R" yChannelSelector="G" />
+    </filter>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#1E1E1C" stroke-width="0.7" />
+    </pattern>
+    <pattern id="hatch" width="6" height="6" patternTransform="rotate(38)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#6E6B64" stroke-width="0.85" opacity="0.55" />
+    </pattern>
+  </defs>
+
+  <rect width="900" height="568" fill="#141413" />
+  <rect x="24" y="10" width="852" height="558" fill="url(#grid)" />
+  <rect width="900" height="568" fill="#141413" opacity="0.35" filter="url(#paper)" />
+
+  
+  <g filter="url(#pencil)" fill="none" stroke-linecap="round">
+    <path d="M 24 568 L 24 12 L 876 12 L 876 568" stroke="#7A7770" stroke-width="1.2" />
+    <path d="M 30 568 L 30 18 L 870 18 L 870 568" stroke="#42403B" stroke-width="0.7" />
+  </g>
+
+  
+  <text x="56" y="60" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="13" font-weight="bold" fill="#EAE7DF" letter-spacing="2.2">
+    V.  CHRONICLE &amp; MARGIN NOTES  —  EDUCATION &amp; NOW
+  </text>
+  <text x="844" y="60" text-anchor="end" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="10" fill="#7A7770" letter-spacing="1.4">
+    [ TIMELINE &amp; CURRENT FOCUS ]
+  </text>
+
+  <g filter="url(#pencil)">
+    <line x1="56" y1="72" x2="844" y2="72" stroke="#6E6B64" stroke-width="1" />
+  </g>
+
+  <text x="56" y="102" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="10.5" font-weight="bold" fill="#9E9B93" letter-spacing="1.8">
+    ACADEMIC RECORD
+  </text>
+
+  
+  <g filter="url(#pencil)" fill="none">
+    <line x1="72" y1="120" x2="72" y2="246" stroke="#6E6B64" stroke-width="1.1" />
+    
+    <polygon points="72,122 78,128 72,134 66,128" fill="#EAE7DF" stroke="#EAE7DF" stroke-width="1" />
+    
+    <polygon points="72,188 78,194 72,200 66,194" fill="#141413" stroke="#BDBAB2" stroke-width="1.1" />
+    
+    <polygon points="72,234 78,240 72,246 66,240" fill="#141413" stroke="#8C8982" stroke-width="1.1" />
+  </g>
+
+  
+  <g>
+    
+    <text x="96" y="132" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="11.5" font-weight="bold" fill="#9E9B93">2023 – 2027</text>
+    <text x="206" y="132" font-family="Georgia, &#39;Times New Roman&#39;, serif" font-size="15" font-weight="bold" fill="#EAE7DF">
+      B.Tech, Computer Science <tspan font-weight="normal" font-style="italic" font-size="13" fill="#A8A59E">(expected)</tspan>
+    </text>
+    <text x="206" y="154" font-family="Georgia, &#39;Times New Roman&#39;, serif" font-size="13" fill="#B8B4AC">
+      SISTec GN (Sagar Institute of Science, Technology &amp; Engineering with Research), Bhopal
+    </text>
+
+    
+    <text x="96" y="198" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="11.5" fill="#9E9B93">2022 – 2023</text>
+    <text x="206" y="198" font-family="Georgia, &#39;Times New Roman&#39;, serif" font-size="14.5" font-weight="bold" fill="#DCD9D0">
+      Class XII, CBSE <tspan font-family="&#39;Courier New&#39;, Courier, monospace" font-size="12.5" fill="#EAE7DF">  ·  79.9%</tspan>
+    </text>
+
+    
+    <text x="96" y="244" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="11.5" fill="#9E9B93">2020 – 2021</text>
+    <text x="206" y="244" font-family="Georgia, &#39;Times New Roman&#39;, serif" font-size="14.5" font-weight="bold" fill="#DCD9D0">
+      Class X, CBSE <tspan font-family="&#39;Courier New&#39;, Courier, monospace" font-size="12.5" fill="#EAE7DF">    ·  76%</tspan>
+    </text>
+  </g>
+
+  
+  <g filter="url(#pencil)">
+    <rect x="63" y="282" width="781" height="174" fill="url(#hatch)" />
+    <rect x="56" y="276" width="788" height="174" fill="#181816" stroke="#8C8982" stroke-width="1" />
+    <line x1="56" y1="306" x2="844" y2="306" stroke="#474540" stroke-width="0.8" />
+    
+    <line x1="50" y1="286" x2="66" y2="270" stroke="#BDBAB2" stroke-width="1.2" />
+    <line x1="834" y1="270" x2="850" y2="286" stroke="#BDBAB2" stroke-width="1.2" />
+  </g>
+
+  <text x="74" y="296" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="11" font-weight="bold" fill="#CFCBC2" letter-spacing="1.8">
+    CURRENT MARGIN NOTES  //  NOW
+  </text>
+
+  <g font-family="Georgia, &#39;Times New Roman&#39;, serif" font-size="14" fill="#D6D3CD">
+    <text x="74" y="336"><tspan font-family="&#39;Courier New&#39;, Courier, monospace" fill="#EAE7DF">◈  </tspan>Working through <tspan fill="#EAE7DF" font-weight="bold">B.Tech</tspan>, sharpening frontend fundamentals</text>
+    <text x="74" y="366"><tspan font-family="&#39;Courier New&#39;, Courier, monospace" fill="#EAE7DF">◇  </tspan>Exploring <tspan fill="#EAE7DF" font-weight="bold">open source</tspan>, frontend architecture, and <tspan fill="#EAE7DF" font-weight="bold">AI-integrated apps</tspan></text>
+    <text x="74" y="396"><tspan font-family="&#39;Courier New&#39;, Courier, monospace" fill="#EAE7DF">△  </tspan><tspan fill="#EAE7DF" font-weight="bold">Long-term:</tspan> contributing meaningfully to large-scale engineering teams</text>
+    <text x="74" y="426"><tspan font-family="&#39;Courier New&#39;, Courier, monospace" fill="#EAE7DF">✦  </tspan><tspan fill="#EAE7DF" font-weight="bold">Belief:</tspan> the best engineers never stop learning</text>
+  </g>
+
+  
+  <g filter="url(#pencil)" fill="none">
+    <line x1="56" y1="490" x2="430" y2="490" stroke="#5A5852" stroke-width="1" />
+    <line x1="470" y1="490" x2="844" y2="490" stroke="#5A5852" stroke-width="1" />
+    <polygon points="450,481 461,490 450,499 439,490" stroke="#D6D3CD" stroke-width="1.1" fill="#141413" />
+    <circle cx="450" cy="490" r="1.8" fill="#D6D3CD" />
+  </g>
+
+  
+  <text x="56" y="538" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="13" font-weight="bold" fill="#EAE7DF" letter-spacing="2.2">
+    VI.  CORRESPONDENCE  —  CONNECT
+  </text>
+  <text x="844" y="538" text-anchor="end" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="10" fill="#7A7770" letter-spacing="1.4">
+    [ SELECT CHANNEL BELOW ]
+  </text>
+
+  <g filter="url(#pencil)">
+    <line x1="56" y1="550" x2="844" y2="550" stroke="#6E6B64" stroke-width="1" />
+  </g>
+</svg>

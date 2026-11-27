@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 362" width="900" height="362">
+  <defs>
+    <filter id="paper" x="0%" y="0%" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.82" numOctaves="4" seed="31" result="n" />
+      <feColorMatrix type="matrix" values="0.33 0.33 0.33 0 0  0.33 0.33 0.33 0 0  0.33 0.33 0.33 0 0  0 0 0 0.09 0" in="n" result="mn" />
+      <feComposite in="mn" in2="SourceGraphic" operator="over" />
+    </filter>
+
+    <filter id="pencil" x="-4%" y="-4%" width="108%" height="108%">
+      <feTurbulence type="turbulence" baseFrequency="0.045" numOctaves="3" seed="17" result="t" />
+      <feDisplacementMap in="SourceGraphic" in2="t" scale="1.9" xChannelSelector="R" yChannelSelector="G" />
+    </filter>
+
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#1E1E1C" stroke-width="0.7" />
+    </pattern>
+
+    <pattern id="hatch" width="6" height="6" patternTransform="rotate(38)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#6E6B64" stroke-width="0.85" opacity="0.55" />
+    </pattern>
+  </defs>
+
+  <rect width="900" height="362" fill="#141413" />
+  <rect x="24" y="0" width="852" height="362" fill="url(#grid)" />
+  <rect width="900" height="362" fill="#141413" opacity="0.35" filter="url(#paper)" />
+
+  
+  <g filter="url(#pencil)" fill="none" stroke-linecap="round">
+    <line x1="24" y1="0" x2="24" y2="362" stroke="#7A7770" stroke-width="1.2" />
+    <line x1="30" y1="0" x2="30" y2="362" stroke="#42403B" stroke-width="0.7" />
+    <line x1="876" y1="0" x2="876" y2="362" stroke="#7A7770" stroke-width="1.2" />
+    <line x1="870" y1="0" x2="870" y2="362" stroke="#42403B" stroke-width="0.7" />
+
+    
+    <line x1="56" y1="26" x2="430" y2="26" stroke="#5A5852" stroke-width="1" />
+    <line x1="470" y1="26" x2="844" y2="26" stroke="#5A5852" stroke-width="1" />
+    <polygon points="450,17 461,26 450,35 439,26" stroke="#D6D3CD" stroke-width="1.1" fill="#141413" />
+    <circle cx="450" cy="26" r="1.8" fill="#D6D3CD" />
+  </g>
+
+  
+  <text x="56" y="72" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="13" font-weight="bold" fill="#EAE7DF" letter-spacing="2.2">
+    III.  STUDIO ARCHIVE  —  WORK &amp; REPOSITORIES
+  </text>
+  <text x="844" y="72" text-anchor="end" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="10" fill="#7A7770" letter-spacing="1.4">
+    [ EXPERIENCE &amp; CODE ]
+  </text>
+
+  <g filter="url(#pencil)">
+    <line x1="56" y1="84" x2="844" y2="84" stroke="#6E6B64" stroke-width="1" />
+
+    
+    <rect x="63" y="106" width="781" height="172" fill="url(#hatch)" />
+    <rect x="56" y="100" width="788" height="172" fill="#181816" stroke="#BDBAB2" stroke-width="1.1" />
+    <line x1="56" y1="128" x2="844" y2="128" stroke="#4F4D47" stroke-width="0.8" />
+    
+    <line x1="52" y1="108" x2="64" y2="96" stroke="#D6D3CD" stroke-width="1.1" />
+    <line x1="836" y1="96" x2="848" y2="108" stroke="#D6D3CD" stroke-width="1.1" />
+  </g>
+
+  <g font-family="&#39;Courier New&#39;, Courier, monospace" font-size="10.5" fill="#9E9B93" letter-spacing="1.3">
+    <text x="74" y="119">00  //  FEATURED COMMISSION  ·  PRIVATE PROJECT</text>
+    <text x="826" y="119" text-anchor="end" fill="#D6D3CD" font-weight="bold">2024 – 2025</text>
+  </g>
+
+  <text x="74" y="156" font-family="Georgia, &#39;Times New Roman&#39;, serif" font-size="18.5" font-weight="bold" fill="#EAE7DF">
+    Frontend Developer — Retro AI Learning Platform
+  </text>
+
+  <g font-family="Georgia, &#39;Times New Roman&#39;, serif" font-size="13.8" fill="#C4C0B8">
+    <text x="74" y="184">
+      Built responsive UI components and full application layouts for an AI-powered study workspace — smart
+    </text>
+    <text x="74" y="206">
+      Notes, Flashcards, contextual Chat, and productivity dashboards. Integrated frontend views with REST APIs
+    </text>
+    <text x="74" y="228">
+      and AI-driven workflows alongside the backend team, keeping the codebase modular with React &amp; Tailwind.
+    </text>
+  </g>
+
+  <text x="74" y="256" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="10.5" fill="#9E9B93" letter-spacing="1.2">
+    [ REACT COMPONENTS · TAILWIND UTILITIES · REST APIs · AI WORKFLOWS ]
+  </text>
+
+  
+  <text x="56" y="314" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="11" font-weight="bold" fill="#CFCBC2" letter-spacing="1.8">
+    PUBLIC WORK LEDGER  —  SELECT ANY ROW TO OPEN REPOSITORY
+  </text>
+
+  <g filter="url(#pencil)">
+    <rect x="56" y="328" width="788" height="33" fill="#1C1C1A" stroke="#7A7770" stroke-width="1" />
+  </g>
+
+  <g font-family="&#39;Courier New&#39;, Courier, monospace" font-size="10.5" font-weight="bold" fill="#A8A59E" letter-spacing="1.4">
+    <text x="70" y="349">NO.</text>
+    <text x="118" y="349">REPOSITORY</text>
+    <text x="358" y="349">SPECIFICATION &amp; NOTES</text>
+    <text x="830" y="349" text-anchor="end">ACTION</text>
+  </g>
+</svg>

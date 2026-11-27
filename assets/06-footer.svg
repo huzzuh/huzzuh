@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 160" width="900" height="160">
+  <defs>
+    <filter id="paper" x="0%" y="0%" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.82" numOctaves="4" seed="88" result="n" />
+      <feColorMatrix type="matrix" values="0.33 0.33 0.33 0 0  0.33 0.33 0.33 0 0  0.33 0.33 0.33 0 0  0 0 0 0.09 0" in="n" result="mn" />
+      <feComposite in="mn" in2="SourceGraphic" operator="over" />
+    </filter>
+    <filter id="pencil" x="-4%" y="-6%" width="108%" height="112%">
+      <feTurbulence type="turbulence" baseFrequency="0.045" numOctaves="3" seed="88" result="t" />
+      <feDisplacementMap in="SourceGraphic" in2="t" scale="1.9" xChannelSelector="R" yChannelSelector="G" />
+    </filter>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#1E1E1C" stroke-width="0.7" />
+    </pattern>
+  </defs>
+
+  <rect width="900" height="160" fill="#141413" />
+  <rect x="24" y="0" width="852" height="138" fill="url(#grid)" />
+  <rect width="900" height="160" fill="#141413" opacity="0.35" filter="url(#paper)" />
+
+  
+  <g filter="url(#pencil)" fill="none" stroke-linecap="round">
+    <path d="M 24 0 L 24 138 L 876 138 L 876 0" stroke="#7A7770" stroke-width="1.2" />
+    <path d="M 30 0 L 30 132 L 870 132 L 870 0" stroke="#42403B" stroke-width="0.7" />
+
+    
+    <line x1="10" y1="138" x2="40" y2="138" stroke="#BDBAB2" stroke-width="1.1" />
+    <line x1="24" y1="120" x2="24" y2="152" stroke="#BDBAB2" stroke-width="1.1" />
+    <line x1="860" y1="138" x2="890" y2="138" stroke="#BDBAB2" stroke-width="1.1" />
+    <line x1="876" y1="120" x2="876" y2="152" stroke="#BDBAB2" stroke-width="1.1" />
+
+    
+    <line x1="210" y1="34" x2="426" y2="34" stroke="#5A5852" stroke-width="0.9" />
+    <line x1="474" y1="34" x2="690" y2="34" stroke="#5A5852" stroke-width="0.9" />
+    <polygon points="450,25 462,34 450,43 438,34" stroke="#EAE7DF" stroke-width="1.1" fill="#141413" />
+    <circle cx="450" cy="34" r="2" fill="#EAE7DF" />
+
+    <path d="M 260 88 Q 450 86.5 640 88" stroke="#7A7770" stroke-width="1" />
+    <path d="M 310 93 Q 450 92 590 93" stroke="#4F4D47" stroke-width="0.7" />
+  </g>
+
+  <text x="450" y="75" text-anchor="middle" font-family="Georgia, &#39;Times New Roman&#39;, serif" font-size="18.5" fill="#EAE7DF" letter-spacing="1.2">
+    Thanks for dropping by — more things are on the way ✦
+  </text>
+
+  <text x="450" y="116" text-anchor="middle" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="10" fill="#8C8982" letter-spacing="2">
+    END OF FOLIO 01  ·  SYED HUZAIFA ALI (@HUZZUH)  ·  BHOPAL, INDIA
+  </text>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 66" width="900" height="66">
+  <defs>
+    <filter id="paper" x="0%" y="0%" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.82" numOctaves="3" seed="72" result="n" />
+      <feColorMatrix type="matrix" values="0.33 0.33 0.33 0 0  0.33 0.33 0.33 0 0  0.33 0.33 0.33 0 0  0 0 0 0.08 0" in="n" result="mn" />
+      <feComposite in="mn" in2="SourceGraphic" operator="over" />
+    </filter>
+    <filter id="pencil" x="-2%" y="-8%" width="104%" height="116%">
+      <feTurbulence type="turbulence" baseFrequency="0.05" numOctaves="2" seed="72" result="t" />
+      <feDisplacementMap in="SourceGraphic" in2="t" scale="1.6" xChannelSelector="R" yChannelSelector="G" />
+    </filter>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#1E1E1C" stroke-width="0.7" />
+    </pattern>
+    <pattern id="hatch" width="6" height="6" patternTransform="rotate(38)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#6E6B64" stroke-width="0.85" opacity="0.55" />
+    </pattern>
+  </defs>
+
+  <rect width="900" height="66" fill="#141413" />
+  <rect x="24" y="0" width="852" height="66" fill="url(#grid)" />
+  <rect width="900" height="66" fill="#141413" opacity="0.35" filter="url(#paper)" />
+
+  <g filter="url(#pencil)" fill="none">
+    <line x1="24" y1="0" x2="24" y2="66" stroke="#7A7770" stroke-width="1.2" />
+    <line x1="30" y1="0" x2="30" y2="66" stroke="#42403B" stroke-width="0.7" />
+    <line x1="876" y1="0" x2="876" y2="66" stroke="#7A7770" stroke-width="1.2" />
+    <line x1="870" y1="0" x2="870" y2="66" stroke="#42403B" stroke-width="0.7" />
+
+    
+    <rect x="61" y="13" width="783" height="46" fill="url(#hatch)" />
+    <rect x="56" y="8" width="788" height="46" fill="#181816" stroke="#A8A59E" stroke-width="1" />
+    <rect x="68" y="17" width="32" height="28" fill="#141413" stroke="#8C8982" stroke-width="0.9" />
+    <rect x="734" y="17" width="96" height="28" fill="#1E1E1B" stroke="#D6D3CD" stroke-width="0.9" />
+  </g>
+
+  <text x="84" y="36" text-anchor="middle" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="13" font-weight="bold" fill="#EAE7DF">@</text>
+  <text x="118" y="36" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="12.5" font-weight="bold" fill="#EAE7DF" letter-spacing="1.6">EMAIL</text>
+  <text x="236" y="36" font-family="Georgia, &#39;Times New Roman&#39;, serif" font-size="13.5" fill="#B8B4AC">syedhuzaifaali87@gmail.com</text>
+  <text x="782" y="35" text-anchor="middle" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="10.5" font-weight="bold" fill="#EAE7DF" letter-spacing="1">WRITE ↗</text>
+</svg>

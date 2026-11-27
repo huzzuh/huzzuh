@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 56" width="900" height="56">
+  <defs>
+    <filter id="paper" x="0%" y="0%" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.82" numOctaves="3" seed="46" result="n" />
+      <feColorMatrix type="matrix" values="0.33 0.33 0.33 0 0  0.33 0.33 0.33 0 0  0.33 0.33 0.33 0 0  0 0 0 0.08 0" in="n" result="mn" />
+      <feComposite in="mn" in2="SourceGraphic" operator="over" />
+    </filter>
+    <filter id="pencil" x="-2%" y="-8%" width="104%" height="116%">
+      <feTurbulence type="turbulence" baseFrequency="0.05" numOctaves="2" seed="46" result="t" />
+      <feDisplacementMap in="SourceGraphic" in2="t" scale="1.5" xChannelSelector="R" yChannelSelector="G" />
+    </filter>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#1E1E1C" stroke-width="0.7" />
+    </pattern>
+  </defs>
+
+  <rect width="900" height="56" fill="#141413" />
+  <rect x="24" y="0" width="852" height="56" fill="url(#grid)" />
+  <rect width="900" height="56" fill="#141413" opacity="0.35" filter="url(#paper)" />
+
+  <g filter="url(#pencil)" fill="none">
+    <line x1="24" y1="0" x2="24" y2="56" stroke="#7A7770" stroke-width="1.2" />
+    <line x1="30" y1="0" x2="30" y2="56" stroke="#42403B" stroke-width="0.7" />
+    <line x1="876" y1="0" x2="876" y2="56" stroke="#7A7770" stroke-width="1.2" />
+    <line x1="870" y1="0" x2="870" y2="56" stroke="#42403B" stroke-width="0.7" />
+
+    <rect x="56" y="0" width="788" height="54" fill="#191917" stroke="none" />
+    <line x1="56" y1="0" x2="56" y2="54" stroke="#5A5852" stroke-width="0.9" />
+    <line x1="844" y1="0" x2="844" y2="54" stroke="#5A5852" stroke-width="0.9" />
+    
+    <line x1="56" y1="54" x2="844" y2="54" stroke="#7A7770" stroke-width="1.1" />
+
+    <rect x="766" y="14" width="64" height="26" fill="#1C1C1A" stroke="#8C8982" stroke-width="0.9" />
+  </g>
+
+  <text x="70" y="31" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="12" fill="#8C8982">06</text>
+  <text x="118" y="31" font-family="Georgia, &#39;Times New Roman&#39;, serif" font-size="14" font-weight="bold" fill="#EAE7DF">test-verification</text>
+  <text x="358" y="31" font-family="Georgia, &#39;Times New Roman&#39;, serif" font-size="13" fill="#C4C0B8">Experiments and verification scripts.</text>
+  <text x="798" y="31" text-anchor="middle" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="10.5" font-weight="bold" fill="#EAE7DF">OPEN ↗</text>
+</svg>

@@ -3,11 +3,6 @@
   <img src="./assets/02-about-stack.svg" alt="About Syed Huzaifa Ali and Tech Stack" width="100%" />
   <img src="./assets/03-work-featured.svg" alt="Featured Work — Retro AI Learning Platform" width="100%" />
   <a href="https://github.com/huzzuh/Hunar-Vikas-Frontend"><img src="./assets/repo-01.svg" alt="Hunar-Vikas-Frontend Repository" width="100%" /></a>
-  <a href="https://github.com/huzzuh/js-rev-simon-says"><img src="./assets/repo-02.svg" alt="js-rev-simon-says Repository" width="100%" /></a>
-  <a href="https://github.com/huzzuh/js-revision-simon-says"><img src="./assets/repo-03.svg" alt="js-revision-simon-says Repository" width="100%" /></a>
-  <a href="https://github.com/huzzuh/Python-Project"><img src="./assets/repo-04.svg" alt="Python-Project Repository" width="100%" /></a>
-  <a href="https://github.com/huzzuh/mp-site"><img src="./assets/repo-05.svg" alt="mp-site Repository" width="100%" /></a>
-  <a href="https://github.com/huzzuh/test-verification"><img src="./assets/repo-06.svg" alt="test-verification Repository" width="100%" /></a>
   <img src="./assets/04-telemetry-header.svg" alt="GitHub Signal Telemetry Header" width="100%" />
 </p>
 
